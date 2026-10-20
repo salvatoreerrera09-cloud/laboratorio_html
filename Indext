@@ -10,6 +10,7 @@
 <header>
 <h1>Mi presento!</h1>
 <p>La mia prima pagina con HTML e CSS</p>
+
 </header>
 <!-- Contenuto principale -->
 <main>
@@ -32,6 +33,7 @@ Il mio obiettivo è
 <a class="pulsante" href="mailto:marco@example.com">
 Scrivimi
 </a>
+
 </article>
 </main>
 <!-- Piè di pagina -->
