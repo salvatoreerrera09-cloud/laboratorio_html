@@ -24,7 +24,49 @@ header {
 header h1 {
     margin: 0;
 }
-
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Meteo Città</title>
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+caption {
+    font-weight: bold;
+    color: blue;
+}
+th {
+    background-color: yellow;
+}
+td {
+    text-align: center;
+}
+</style>
+</head>
+<body>
+<table style="width:50%;">
+<caption>METEO CITTÀ</caption>
+<tr>
+    <th>Città</th>
+    <th>Temperatura</th>
+    <th>Umidità</th>
+</tr>
+<tr>
+    <td>Bolzano</td>
+    <td>-1 °C</td>
+    <td>35%</td>
+</tr>
+<tr>
+    <td>Palermo</td>
+    <td>22 °C</td>
+    <td>67%</td>
+</tr>
+</table>
+</body>
+</html>
 header p {
     margin: 8px 0 0;
 }
