@@ -99,21 +99,23 @@ Scrivimi
 </div>
 
 <script>
-function mostraCitta(citta) {
+  function mostraCitta(citta) {
     let contenuto = "";
 
     if (citta === "parigi") {
-        contenuto = '<img src="parigi.jpg" alt="Parigi">';
+        contenuto = '<img src="Parigi.jpeg" alt="Parigi">';
     }
 
     if (citta === "newyork") {
-        contenuto = '<img src="newyork.jpg" alt="New York">';
+        contenuto = '<img src="NewYork.jpeg" alt="New York">';
     }
 
     if (citta === "berlino") {
-        contenuto = '<img src="berlino.jpg" alt="Berlino">';
+        contenuto = '<img src="Berlino.jpeg" alt="Berlino">';
     }
 
+    document.getElementById("immagine-citta").innerHTML = contenuto;
+  }
     document.getElementById("immagine-citta").innerHTML = contenuto;
 }
 </script>
