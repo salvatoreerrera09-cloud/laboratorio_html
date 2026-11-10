@@ -81,6 +81,45 @@ Scrivimi
     Dati del 10 novembre 2026.
     Il dato di Marsala è una previsione, gli altri sono rilevazioni.
 </p>
+  </Table>
+
+<!-- I miei luoghi preferiti -->
+<h3>I miei luoghi preferiti</h3>
+
+<p>Clicca su una città per vedere la sua immagine:</p>
+
+<div class="luoghi">
+    <button onclick="mostraCitta('parigi')">Parigi</button>
+    <button onclick="mostraCitta('newyork')">New York</button>
+    <button onclick="mostraCitta('berlino')">Berlino</button>
+</div>
+
+<div id="immagine-citta">
+    <p>Seleziona una città!</p>
+</div>
+
+<script>
+function mostraCitta(citta) {
+    let contenuto = "";
+
+    if (citta === "parigi") {
+        contenuto = '<img src="parigi.jpg" alt="Parigi">';
+    }
+
+    if (citta === "newyork") {
+        contenuto = '<img src="newyork.jpg" alt="New York">';
+    }
+
+    if (citta === "berlino") {
+        contenuto = '<img src="berlino.jpg" alt="Berlino">';
+    }
+
+    document.getElementById("immagine-citta").innerHTML = contenuto;
+}
+</script>
+
+</article>
+</main>
 </article>
 </main>
 <!-- Piè di pagina -->
