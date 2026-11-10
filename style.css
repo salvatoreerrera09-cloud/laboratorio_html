@@ -2,13 +2,21 @@
 * {
     box-sizing: border-box;
 }
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
 table, th, td {
     border: 1px solid black;
+    padding: 10px;
 }
 
 caption {
-    font-weight: bold; 
+    font-weight: bold;
     color: blue;
+    padding: 10px;
 }
 
 th {
@@ -19,6 +27,11 @@ td {
     text-align: center;
 }
 
+.fonte {
+    font-size: 12px;
+    color: #526174;
+    margin-top: 10px;
+}
 /* Aspetto generale della pagina */
 body {
     margin: 0;
