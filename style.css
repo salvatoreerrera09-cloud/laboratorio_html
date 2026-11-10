@@ -122,3 +122,39 @@ footer {
     font-size: 14px;
     color: #526174;
 }
+
+/* I miei luoghi preferiti */
+
+.luoghi {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 15px 0;
+}
+
+.luoghi button {
+    padding: 10px 18px;
+    background-color: #244a73;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.luoghi button:hover {
+    background-color: #17334f;
+}
+
+#immagine-citta {
+    margin-top: 15px;
+    text-align: center;
+}
+
+#immagine-citta img {
+    width: 100%;
+    max-width: 450px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
